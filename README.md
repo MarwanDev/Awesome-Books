@@ -71,7 +71,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone[(https://github.com/joyapisi/1st-Capstone-Project.git)]
+  git clone[(https://github.com/MarwanDev/Awesome-Books.git)]
 ```
 ### Set Up Linters
 ## Define Linters
