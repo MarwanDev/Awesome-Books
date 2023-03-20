@@ -23,3 +23,11 @@ booksArray.forEach((book) => {
     book.author);
   bookList.insertAdjacentHTML('afterbegin', htmlToAdd);
 });
+
+const title = document.getElementById('title');
+const author = document.getElementById('author');
+
+const inputFileds = [
+  title,
+  author,
+];
