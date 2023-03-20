@@ -6,7 +6,8 @@ HTML, CSS and JavaScript Project
 gdfg
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
+- [Tech Stack](#tech-stack)
+- [Key Features](#key-features)
 - [🎥 Video Explanation](#video-explanation)   
 - [🚀 Live Demo](#live-demo)    
 - [💻 Getting Started](#getting-started)
@@ -19,7 +20,6 @@ gdfg
 -- [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ](#faq)
 - [📝 License](#license)
-- [© Attribution](#attribution)
 
 # 📖 [Teen_Creators_Conference] <a name="Teen Conference"></a>
 
@@ -41,6 +41,14 @@ gdfg
   </ul>
 </details>
 
+### Key Features <a name="key-features"></a>
+
+- **[Medium-fidelity Wireframes]**
+- **[Desktop Version]**
+- **[Dynamic Design]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🎥 Video Explanation <a name="video-explanation"></a>
 Coming soon!
@@ -187,8 +195,13 @@ If you think that change is necessary - open a Pull Request in this repository a
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-# **[1]** 
-- Add more styling
+# **[Feature-1]** 
+- Add more styling (coloring)
+
+# **[Feature-2]** 
+- Add mobile version 
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
