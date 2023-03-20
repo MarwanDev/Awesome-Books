@@ -1,4 +1,4 @@
-# AwesomeBooks Project
+# Awesome Books Project
 HTML, CSS and JavaScript AwesomeBooks Project
 <a name="readme-top"></a>
 
