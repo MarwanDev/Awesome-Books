@@ -1,5 +1,5 @@
-# HTML, CSS & JavaScript Capstone Project
-HTML, CSS and JavaScript Project
+# HTML, CSS & JavaScript AwesomeBooks
+HTML, CSS and JavaScript AwesomeBooks Project
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
@@ -21,7 +21,7 @@ gdfg
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Teen_Creators_Conference] <a name="Teen Conference"></a>
+# 📖 [Awesome_Books] <a name="Awesome Books"></a>
 
 
 **[Awesome_Books]** is a simple website that displays a list of books and allows you to add and remove books from that list. By building this application, you will learn how to manage data using JavaScript. Thanks to that, your website will be more interactive. You will also use a medium-fidelity wireframe to build the UI.
@@ -71,7 +71,6 @@ In order to run this project you need:
 -Git bash
 -Node JS
 -Visual Studio Code as your code editor
--Figma account
 
 ### Setup
 
@@ -101,6 +100,7 @@ Also, there are many ways you can integrate a linter in your workflow:
 -text editor plugin
 -GitHub Actions
 -GitHub apps
+
 ## Set up Linters
 **Note:** The npm package manager is going to create a node_modules directory to install all of your dependencies. You shouldn't commit that directory. To avoid that, you can create a .gitignore file and add node_modules to it:
 
@@ -156,21 +156,8 @@ If you think that change is necessary - open a Pull Request in this repository a
 
 6. **IMPORTANT NOTE:** feel free to research auto-correct options for Stylelint if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
 
-### Making Your HTML and CSS Code From Figma
--Pick a figma template to work on and use css and html to build a replica the first 2 sections of the mobile website using the template you have chosen.
-
--Make sure to replace the contents of helloworld.html with new contents of your own html code which replicates the chosen figma template. 
-
--In your figma template, you will create the toolbar (or header) and the headline section (right after the header)
-
-**note**
--Make sure to pick the mobile template on figma and not the desktop template.
--In order to lay out the elements on the page you should use Flexbox in all 2 sections.
--You don't need to implement any functionality that requires JavaScript, like opening the menu or creating dropdowns.
--You must stick to the design as much as possible (e.g. font, colors, images, text, margins) using the templates in Figma.
--Implement the button interactions (enable, hover, etc.).
-
-
+### Making Your HTML Using Medium-fidelity wireframes
+-Make sure to use a design that is similar to the Medium-fidelity wireframes to present your website
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -196,12 +183,10 @@ If you think that change is necessary - open a Pull Request in this repository a
 ## 🔭 Future Features <a name="future-features"></a>
 
 # **[Feature-1]** 
-- Add more styling (coloring)
+- Add more styling (aesthetics)
 
 # **[Feature-2]** 
 - Add mobile version 
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -230,14 +215,6 @@ Where can I download node JS for installation?
 
   - Node Js can be downloaded here- <ul>
     <li><a href="https://nodejs.org/en/download/"> Node JS </a></li>
-  </ul>
-
-- **[Question_3]**
-How can I style with flexbox?
-  - 
-  Learn everything you need to know about flex boxes here:
-<ul>
-    <li><a href="https://www.youtube.com/watch?v=Vj7NZ6FiQvo&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid">Flex Boxes</a></li>
   </ul>
 
 ## 📝 License <a name="license"></a>
