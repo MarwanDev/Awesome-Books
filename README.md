@@ -181,6 +181,12 @@ If you think that change is necessary - open a Pull Request in this repository a
 - Twitter: (https://twitter.com/joyapisi)
 - LinkedIn: (https://http://www.linkedin.com/in/joy-phoebe-00b80a13a)
 
+👤 **Marwan Abdelsattar**
+
+- GitHub: (https://github.com/MarwanDev)
+- Twitter: (https://twitter.com/MarwanEg)
+- LinkedIn: (https://www.linkedin.com/in/marwan-abdelsattar-665a59105/)
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
