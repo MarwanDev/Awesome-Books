@@ -1,9 +1,8 @@
 # Awesome Books Project
-HTML, CSS and JavaScript AwesomeBooks Project
+HTML, CSS and JavaScript Awesome Books Project
 <a name="readme-top"></a>
 
 # 📗 Table of Contents
-gdfg
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
 - [Tech Stack](#tech-stack)
