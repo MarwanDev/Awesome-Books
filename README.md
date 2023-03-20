@@ -41,19 +41,13 @@ HTML, CSS and JavaScript Project
   </ul>
 </details>
 
-<!-- VIdeo Explanation -->
+
 ## 🎥 Video Explanation <a name="video-explanation"></a>
 Coming soon!
-<!-- Click <a href="https://www.loom.com/share/85f87f3aae2a470b953ee5ea325478a5">here</a> to see a live demo of this project online:  -->
-
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 Coming Soon!
-<!-- Click <a href="https://joyapisi.github.io/1st-Capstone-Project/">here</a> to see a live demo of this project online:  -->
 
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -191,17 +185,12 @@ If you think that change is necessary - open a Pull Request in this repository a
 ## 🤝 Contributing <a name="contributing"></a>
 
 
-<!-- FUTURE FEATURES -->
-
 ## 🔭 Future Features <a name="future-features"></a>
 
-# **[1]**
-
-# **[2]**
+# **[1]** 
+- Add more styling
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 Contributions, issues, and feature requests are welcome!
 
@@ -211,15 +200,10 @@ Feel free to check the [issues page](https://github.com/joyapisi/ThePortfolio/is
 
 If you like this project, kindly leave a comment below and share it with someone who enjoys coding! Coding is all about continuous learning and allowing yourself to be a beginner. Keep going! 
 
-
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="Microverse Inc."></a>
 
 I'm thankful to Microverse for providing a study platform which guided me through this project and to my coding partners at Microverse for the collaborative effort. 
 
-
-<!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
@@ -242,8 +226,6 @@ How can I style with flexbox?
 <ul>
     <li><a href="https://www.youtube.com/watch?v=Vj7NZ6FiQvo&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid">Flex Boxes</a></li>
   </ul>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
