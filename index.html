@@ -6,13 +6,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Awesome Books</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
 </head>
 <body>
   <header>
-    <h1>Awesome Books</h1>  
+    <nav>
+      <a class="logo">Awesome Books</a>
+      <div class="nav-list">
+        <a class="listLink" href="#">List</a>
+        <i class="fa-solid fa-pipe"></i>
+        <a class="addNewLink" href="#">Add New</a>
+        <i class="fa-solid fa-pipe"></i>
+        <a class="contactLink" href="#">Contact</a>
+      </div>
+    </nav>  
   </header>
   
   <div class="books-list" id="books-list">
+    <h3 class="allbooks">All Awesome Books</h3>
   </div>
   <section class="add-book-section">
     <form class="add-book">
@@ -23,4 +34,5 @@
   </section>
 </body>
 <script src="index.js" type="module"></script>
+<script src="https://kit.fontawesome.com/b0cb732747.js" crossorigin="anonymous"></script>
 </html>
