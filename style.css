@@ -24,17 +24,14 @@ nav {
 
 nav a {
   text-decoration: none;
-  /* -webkit-tap-highlight-color: transparent;  */
+  color: #000;
 }
 
 .logo {
-  /* justify-content: flex-start; */
-  /* width: 70%; */
   padding-left: 20px;
 }
 
 .nav-list {
-  /* justify-content: flex-end; */
   padding-right: 20px;
 }
 
@@ -46,7 +43,8 @@ nav a {
   width: 100%;
   height: 100%;
   padding: 20px 10px 0 10px;
-  gap: 4px;
+  gap: 8px;
+  border: 2px solid #000;
 }
 
 .allbooks {
@@ -55,19 +53,30 @@ nav a {
   font-size: 20px;
 }
 
-form {
+.add-book-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  /* width: 40%; */
-  /* height: 55%; */
   gap: 12px;
 }
 
-#add-book-btn {
+form {
   display: flex;
-  align-items: flex-end;
-  width: 40px;
+  flex-direction: column;
+  gap: 12px;
+}
 
+form input {
+  border: 2px solid #000;
+  border-radius: 0.2rem;
+  padding: 2px;
+}
+
+#add-book-btn {
+  text-align: center;
+  width: 40px;
+  margin-left: 150px;
+  border: 2px solid #000;
+  box-shadow: 1px 1px 2px #000;
 }
