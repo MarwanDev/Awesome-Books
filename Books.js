@@ -5,6 +5,7 @@ export default class Books {
     this.booksList = document.getElementById('books-list');
     this.bookTitle = document.getElementById('title');
     this.bookAuthor = document.getElementById('author');
+    this.allBooks = document.getElementById('all-books');
     this.booksArray = [];
     if (localStorage.getItem('BookStorage')) {
       this.booksArray = JSON.parse(localStorage.getItem('BookStorage'));
@@ -29,12 +30,12 @@ export default class Books {
 
   booksDisplay = () => {
     this.booksArray.forEach((book, index) => {
-      this.booksHtml = (title, author) => `    <h2 id="book-title">${title}</h2>
-      <h3 id="book-author">${author}</h3>
+      this.booksHtml = (title, author) => `  <div class="book-container">  
+      <h3 id="book-author" class = "book-author">"${title}" by ${author}</h3>
       <button type="button" class="book-btn" id="book-btn">Remove</button>
-      <hr>`;
+      </div>`;
       const htmlToAdd = this.booksHtml(book.title, book.author);
-      this.booksList.insertAdjacentHTML('afterbegin', htmlToAdd);
+      this.allBooks.insertAdjacentHTML('afterend', htmlToAdd);
       this.removeBtn = document.getElementById('book-btn');
       this.removeBtn.onclick = () => this.removeBook(index);
     });
