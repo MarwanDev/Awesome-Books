@@ -5,3 +5,42 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
 }
+
+.books-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.allbooks {
+  display: flex;
+  font-family: ;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+h3 {
+  display: flex;
+  font-family: ;
+  font-weight: 500;
+  font-size: 15px
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 55%;
+  gap: 12px;
+}
+
+#add-book-btn {
+  display: flex;
+  align-items: flex-end;
+  width: 40px;
+
+}
