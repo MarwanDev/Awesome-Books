@@ -35,7 +35,7 @@ export default class Books {
       <button type="button" class="book-btn" id="book-btn">Remove</button>
       </div>`;
       const htmlToAdd = this.booksHtml(book.title, book.author);
-      this.allBooks.insertAdjacentHTML('afterend', htmlToAdd);
+      this.booksList.insertAdjacentHTML('afterbegin', htmlToAdd);
       this.removeBtn = document.getElementById('book-btn');
       this.removeBtn.onclick = () => this.removeBook(index);
     });
