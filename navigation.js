@@ -1,4 +1,4 @@
-const booksList = document.getElementById('books-list');
+const booksList = document.getElementById('books-list-section');
 const addBooks = document.getElementById('add-book-section');
 const contactUs = document.getElementById('contact-us');
 
@@ -6,25 +6,27 @@ const listLink = document.getElementById('list-link');
 const addNewLink = document.getElementById('add-new-link');
 const contactLink = document.getElementById('contact-link');
 
-const NavHeader = document.getElementById('nav-header');
-const todayDate = document.getElementById('date');
+addBooks.style.display = 'none';
+contactUs.style.display = 'none';
+booksList.classList.add('active');
 
 listLink.addEventListener('click', () => {
-  booksList.classList.remove('hidden');
-  contactUs.classList.add('hidden');
-  addBooks.classList.add('hidden');
+  addBooks.style.display = 'none';
+  contactUs.style.display = 'none';
+  booksList.style.display = 'flex';
+  booksList.classList.add('active');
 });
 
 addNewLink.addEventListener('click', () => {
-  booksList.classList.remove('active');
-  contactUs.classList.remove('active');
+  booksList.style.display = 'none';
+  contactUs.style.display = 'none';
+  addBooks.style.display = 'flex';
   addBooks.classList.add('active');
 });
 
 contactLink.addEventListener('click', () => {
-    booksList.classList.remove('active');
-    contactUs.classList.add('active');
-    addBooks.classList.remove('active');
+  booksList.style.display = 'none';
+  contactUs.style.display = 'flex';
+  addBooks.style.display = 'none';
+  contactUs.classList.add('active');
 });
-
-todayDate.insertAdjacentHTML('afterbegin', navHeader);

@@ -54,15 +54,6 @@ nav a {
   margin-bottom: 10px;
 }
 
-.active {
-  display: block;
-}
-
-.hidden {
-  display: none;
-}
-
-/* Books List Section */
 .all-books {
   align-self: center;
   margin-bottom: 10px;
@@ -87,13 +78,15 @@ nav a {
 }
 
 .book-container {
+  align-self: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 30px;
   justify-content: space-between;
-  gap: 80%;
+  gap: 75%;
+  width: 100%;
 }
 
 .book-container:nth-child(odd) {
@@ -118,7 +111,6 @@ h3 {
   font-size: 20px;
 }
 
-/* Add Book section */
 .add-book-section {
   display: flex;
   flex-direction: column;
@@ -147,7 +139,6 @@ form input {
   box-shadow: 1px 1px 2px #000;
 }
 
-/* Contact Us section */
 .contact {
   display: flex;
   flex-direction: column;
