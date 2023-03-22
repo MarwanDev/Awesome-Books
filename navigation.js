@@ -9,12 +9,15 @@ const contactLink = document.getElementById('contact-link');
 addBooks.style.display = 'none';
 contactUs.style.display = 'none';
 booksList.classList.add('active');
+booksList.classList.add('focus');
 
 listLink.addEventListener('click', () => {
+  window.location.reload();
   addBooks.style.display = 'none';
   contactUs.style.display = 'none';
   booksList.style.display = 'flex';
   booksList.classList.add('active');
+  booksList.classList.add('focus');
 });
 
 addNewLink.addEventListener('click', () => {
@@ -22,6 +25,7 @@ addNewLink.addEventListener('click', () => {
   contactUs.style.display = 'none';
   addBooks.style.display = 'flex';
   addBooks.classList.add('active');
+  addBooks.classList.add('focus');
 });
 
 contactLink.addEventListener('click', () => {
@@ -29,4 +33,5 @@ contactLink.addEventListener('click', () => {
   contactUs.style.display = 'flex';
   addBooks.style.display = 'none';
   contactUs.classList.add('active');
+  contactUs.classList.add('focus');
 });
