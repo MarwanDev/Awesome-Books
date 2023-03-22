@@ -44,6 +44,11 @@ nav a {
   flex-direction: row;
 }
 
+.nav-list a:active,
+.nav-list a:focus {
+  color: blue;
+}
+
 .vl {
   margin-left: 7px;
   margin-right: 7px;
@@ -78,13 +83,15 @@ nav a {
 }
 
 .book-container {
+  align-self: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 30px;
   justify-content: space-between;
-  gap: 80%;
+  gap: 75%;
+  width: 100%;
 }
 
 .book-container:nth-child(odd) {
