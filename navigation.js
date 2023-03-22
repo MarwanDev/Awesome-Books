@@ -6,6 +6,9 @@ const listLink = document.getElementById('list-link');
 const addNewLink = document.getElementById('add-new-link');
 const contactLink = document.getElementById('contact-link');
 
+const NavHeader = document.getElementById('nav-header');
+const todayDate = document.getElementById('date');
+
 listLink.addEventListener('click', () => {
   booksList.classList.remove('hidden');
   contactUs.classList.add('hidden');
@@ -13,13 +16,15 @@ listLink.addEventListener('click', () => {
 });
 
 addNewLink.addEventListener('click', () => {
-  booksList.classList.add('hidden');
-  contactUs.classList.add('hidden');
-  addBooks.classList.remove('hidden');
+  booksList.classList.remove('active');
+  contactUs.classList.remove('active');
+  addBooks.classList.add('active');
 });
 
 contactLink.addEventListener('click', () => {
-    booksList.classList.add('hidden');
-    contactUs.classList.remove('hidden');
-    addBooks.classList.add('hidden');
-  });
+    booksList.classList.remove('active');
+    contactUs.classList.add('active');
+    addBooks.classList.remove('active');
+});
+
+todayDate.insertAdjacentHTML('afterbegin', navHeader);

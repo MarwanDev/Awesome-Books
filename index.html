@@ -9,22 +9,25 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
 </head>
 <body>
-  <header>
+  <header id="nav-header">
     <nav>
       <a class="logo">Awesome Books</a>
       <div class="nav-list">
-        <a id="list-link" href="#">List</a>
-        <i class="fa-solid fa-pipe"></i>
-        <a id="add-new-link" href="#">Add New</a>
-        <i class="fa-solid fa-pipe"></i>
-        <a id="contact-link" href="#">Contact</a>
+        <a class="listLink" href="#">List</a>
+          <span class="vl">&#124</span>
+        <a class="addNewLink" href="#">Add New</a>
+          <span class="vl">&#124</span>
+        <a class="contactLink" href="#">Contact</a>
       </div>
     </nav>  
   </header>
-  
-  <div class="books-list" id="books-list">
-    <h3 class="allbooks">All Awesome Books</h3>
-  </div>
+
+  <div class="date" id="date"></div>
+
+  <section class="books-list-section" id="books-list">
+    <h3 class="all-books" id="all-books">All Awesome Books</h3>
+    <div class="books-list" id="books-list">
+  </section>
 
   <section class="add-book-section" id="add-book-section">
     <h3 class="addbooktopic">Add a New Book</h3>
@@ -49,8 +52,8 @@
   <footer>
     <button class="copyright" type="submit">Copyright ...</button>
   </footer>
-
 </body>
+<script src="navigation.js"></script>
 <script src="index.js" type="module"></script>
 <script src="https://kit.fontawesome.com/b0cb732747.js" crossorigin="anonymous"></script>
 </html>
